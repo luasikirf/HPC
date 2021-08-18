@@ -20,10 +20,27 @@ This project is for 1 computer, so install the gforker version.
 Clone the repositorie.
 
 ## Evolution Programimg
+The Evolution Programimg was described as a form to simulate the evolution, "is one of a class of paradigms for simulating evolution which utilizes the concepts of Darwinian evolution to iteratively generate increasingly appropriate solutions (organisms) in light of a static or dynamically changing environment."Porto, V. W. (2018).
 
 ## Methodology
+We ask to the user the necesarie parameters, that are:
+- <img src="https://render.githubusercontent.com/render/math?math=n">: represents the amount of variables that the solution would have.
+- <img src="https://render.githubusercontent.com/render/math?math=\mu">: is the number of individuals that form the popi¿ulation.
+- <img src="https://render.githubusercontent.com/render/math?math=G">: is the number of generations that the algoritm do each iteration.
+- <img src="https://render.githubusercontent.com/render/math?math=\alpha">: is a mutation parameter.
+- <img src="https://render.githubusercontent.com/render/math?math=\epsilon0">: the minor standard deviation allowed.
+- <img src="https://render.githubusercontent.com/render/math?math=M">: the number of iterations for the algorithm.
+
+Afther that, the algorithm do the next steps for each iteration:
+- Get the initial solution that are the first fathers.
+- Get the children from the fathers.
+- Evaluate the population that is the union of the fathers and their children.
+- Choose the best <img src="https://render.githubusercontent.com/render/math?math=\mu"> individuals, based on his score on the function, and these are going to be the fathers of the next generation, add 1 to the number of generations.
+- When tha number of generations are equal to <img src="https://render.githubusercontent.com/render/math?math=G"> the best solution of the population is added to the list of best solutions
 
 ## Implementation
+
+
 
 ## Test
 
@@ -32,6 +49,6 @@ Clone the repositorie.
 ## Conclusions
 
 ## Bibliography
-
+Porto, V. W. (2018). Evolutionary programming. In Evolutionary Computation 1 (pp. 127-140). CRC Press.
 
 
