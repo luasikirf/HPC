@@ -66,10 +66,19 @@ The test for this work was made whit the following parameters:
 - <img src="https://render.githubusercontent.com/render/math?math=\alpha = 2">
 - <img src="https://render.githubusercontent.com/render/math?math=\epsilon0 = 0.0001">
 - <img src="https://render.githubusercontent.com/render/math?math=M = 15">
+The goal is find the optimal point, that are the point which have the minimum value on f(x), and this is possible when all the n variables of the point are 0.
 ## Results
 The results are on the folling table.
 
+![image2](  https://drive.google.com/uc?export=view&id=1aKZeqMkHmEwd6-5rqrX_bGNtVaM8ZpaQ)
+
+As we can see, it's more difficult to find the global optimal point when we use higher values for $n$, because are more variables that affect the value on f(x).
 ## Conclusions
+Evolution programing can help you when you are finding for an optimal point on a function, on this work was used the Ackley function, but it can be whatever.
+
+C# is a fast language of programming; it can be difficult but with practice you get used to it.
+
+I think the results are good because the standard deviation is “lower” to my opinion, and it means that the algorithm is stable, and the best result that found isn’t so far to 0.
 
 ## Bibliography
 Porto, V. W. (2018). Evolutionary programming. In Evolutionary Computation 1 (pp. 127-140). CRC Press.
