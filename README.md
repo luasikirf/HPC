@@ -22,6 +22,8 @@ When you had installed MPICH, follow the next steps:
 - In a terminal,go to the path where is the folder "code" and open it.
 - Run ```make clean  ``` and then ```make```
 - Now, you would run ```mpiexec -n x ./ce ``` where x is the number of threads that you want the program use.
+### note: 
+To change the values of the variables, you need to open the code and declarate te value that you want, are in the fisrt lines belos the libraries, and to see changes, you have to do another ```make``` before do  ```mpiexec -n x ./ce ```
 
 ## Evolution Programimg
 The Evolution Programimg was described as a form to simulate the evolution, "is one of a class of paradigms for simulating evolution which utilizes the concepts of Darwinian evolution to iteratively generate increasingly appropriate solutions (organisms) in light of a static or dynamically changing environment."Porto, V. W. (2018).
